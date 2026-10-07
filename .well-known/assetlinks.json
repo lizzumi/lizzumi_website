@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.pet_social",
+      "package_name": "com.lizzumi",
       "sha256_cert_fingerprints": [
         "0A:B8:41:68:14:C5:E7:A1:C0:60:F4:8A:03:57:13:03:41:95:3C:83:D4:DA:EC:E6:99:61:8A:3D:8D:28:6D:1E",
         "4A:DE:B2:83:51:60:55:7B:C5:19:F0:7B:02:F1:4A:8D:28:59:EC:99:E4:62:DF:F3:ED:34:66:C8:49:F9:74:67"
