@@ -112,6 +112,23 @@
             position: relative;
             z-index: 1;
         }
+
+        .legal-links {
+            margin-top: 1.5rem;
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+
+        .legal-links a {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .legal-links a:hover {
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -123,6 +140,11 @@
                 <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
             </a>
         </div>
+        <nav class="legal-links">
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="child-safety.html">Child Safety</a>
+            <a href="account-deletion.html">Delete Account</a>
+        </nav>
     </div>
     <script>
         const container = document.getElementById('particles');
