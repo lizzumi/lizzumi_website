@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      ".firebaserc",
+      ".gitignore",
+      ".firebase/**",
+      ".git/**",
+      "CNAME",
+      "_config.yml",
+      "**/node_modules/**"
+    ],
+    "cleanUrls": true,
+    "rewrites": [
+      {
+        "source": "/post/**",
+        "run": {
+          "serviceId": "pet-social-api",
+          "region": "europe-west9"
+        }
+      }
+    ]
+  }
+}
